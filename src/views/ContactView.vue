@@ -28,7 +28,7 @@
         </div>
         <div class="col-md-6">
           <div class="rounded" style="background-color: #106E1A;">
-            <form class="row h-300 p-3" action="https://formspree.io/f/xdovnpvb" method="POST">
+            <form class="row h-300 p-3" action="https://formspree.io/f/mrgvzrzk" method="POST">
               <input type="hidden" name="_subject" value="Nuevo Mensaje Marwal">
               <div class="col-md-6 mt-2">
                 <input type="text" class="form-control" id="inputNombre" name="nombre" placeholder="Nombre" required>
