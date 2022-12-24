@@ -28,18 +28,18 @@
         </div>
         <div class="col-md-6">
           <div class="rounded" style="background-color: #106E1A;">
-            <form class="row h-300 p-3">
+            <form class="row h-300 p-3" name="contact" method="POST" data-netlify="true" onSubmit="submit">
               <div class="col-md-6 mt-2">
-                <input type="text" class="form-control" id="inputNombre" placeholder="Nombre">
+                <input type="text" class="form-control" id="inputNombre" name="nombre" placeholder="Nombre">
               </div>
               <div class="col-md-6 mt-2">
-                <input type="email" class="form-control" id="inputemail" placeholder="Email">
+                <input type="email" class="form-control" id="inputemail" name="email" placeholder="Email">
               </div>
               <div class="col-12 mt-2">
-                <input type="text" class="form-control" id="inputAsunto" placeholder="Asunto">
+                <input type="text" class="form-control" id="inputAsunto" name="asunto" placeholder="Asunto">
               </div>
               <div class="col-12 mt-2">
-                <textarea class="form-control" id="inputMensaje" rows="3" placeholder="Mensaje"></textarea>
+                <textarea class="form-control" id="inputMensaje" name="mensaje" rows="3" placeholder="Mensaje"></textarea>
               </div>
               <div class="col-12 mt-2 text-center">
                 <button type="submit" class="btn btn-primary">Enviar mensaje</button>

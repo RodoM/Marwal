@@ -23,18 +23,6 @@
         </button>
       </div>
     </section>
-    <section class="d-flex flex-column container gap-3">
-      <title-component titulo="Productos"></title-component>
-      <div class="container-fluid mobile-card-container">
-        <div class="row justify-content-between flex-nowrap flex-md-wrap gap-3">
-          <product-card v-motion-fade-visible-once></product-card>
-          <product-card v-motion-fade-visible-once></product-card>
-          <product-card v-motion-fade-visible-once></product-card>
-          <product-card v-motion-fade-visible-once></product-card>
-          <product-card v-motion-fade-visible-once></product-card>
-        </div>
-      </div>
-    </section>
     <section class="d-flex flex-column gap-3">
       <title-component titulo="Servicios"></title-component>
       <div class="d-flex align-items-center green-background">
@@ -100,7 +88,6 @@
 
 <script>
 import TitleComponent from '@/components/layout/bs-title.vue'
-import ProductCard from '@/components/products/bs-product-card-home.vue'
 import ServiceCard from '@/components/services/bs-service-card-home.vue'
 import WhatsappBtn from '@/components/layout/bs-whatsapp.vue'
 
@@ -110,7 +97,6 @@ export default {
   name: 'HomeView',
   components: {
     TitleComponent,
-    ProductCard,
     ServiceCard,
     WhatsappBtn,
   },
