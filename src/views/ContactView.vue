@@ -28,10 +28,8 @@
         </div>
         <div class="col-md-6">
           <div class="rounded" style="background-color: #106E1A;">
-            <form class="row h-300 p-3" action="https://formsubmit.co/rodomeroi@gmail.com" method="POST">
+            <form class="row h-300 p-3" action="https://formspree.io/f/xdovnpvb" method="POST">
               <input type="hidden" name="_subject" value="Nuevo Mensaje Marwal">
-              <input type="hidden" name="_captcha" value="false">
-              <input type="hidden" name="_next" value="https://marwal.netlify.app/contacto">
               <div class="col-md-6 mt-2">
                 <input type="text" class="form-control" id="inputNombre" name="nombre" placeholder="Nombre" required>
               </div>
