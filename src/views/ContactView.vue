@@ -28,18 +28,21 @@
         </div>
         <div class="col-md-6">
           <div class="rounded" style="background-color: #106E1A;">
-            <form class="row h-300 p-3" name="contact" method="POST" data-netlify="true" onSubmit="submit">
+            <form class="row h-300 p-3" action="https://formsubmit.co/rodomeroi@gmail.com" method="POST">
+              <input type="hidden" name="_subject" value="Nuevo Mensaje Marwal">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_next" value="https://marwal.netlify.app/contacto">
               <div class="col-md-6 mt-2">
-                <input type="text" class="form-control" id="inputNombre" name="nombre" placeholder="Nombre">
+                <input type="text" class="form-control" id="inputNombre" name="nombre" placeholder="Nombre" required>
               </div>
               <div class="col-md-6 mt-2">
-                <input type="email" class="form-control" id="inputemail" name="email" placeholder="Email">
+                <input type="email" class="form-control" id="inputemail" name="email" placeholder="Email" required>
               </div>
               <div class="col-12 mt-2">
-                <input type="text" class="form-control" id="inputAsunto" name="asunto" placeholder="Asunto">
+                <input type="text" class="form-control" id="inputAsunto" name="asunto" placeholder="Asunto" required>
               </div>
               <div class="col-12 mt-2">
-                <textarea class="form-control" id="inputMensaje" name="mensaje" rows="3" placeholder="Mensaje"></textarea>
+                <textarea class="form-control" id="inputMensaje" name="mensaje" rows="3" placeholder="Mensaje" required></textarea>
               </div>
               <div class="col-12 mt-2 text-center">
                 <button type="submit" class="btn btn-primary">Enviar mensaje</button>
